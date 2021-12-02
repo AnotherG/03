@@ -15,7 +15,7 @@ pipeline {
                 }  
  post {
     always {
-        recordIssues enabledForFailure: true, tool: SonarQube()
+        recordIssues enabledForFailure: true, tool: sonarQube()
         }
     }
 }
