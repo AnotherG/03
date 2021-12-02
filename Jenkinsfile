@@ -13,9 +13,9 @@ pipeline {
                         }
                     }
                 }  
- post {
-    always {
-        //recordIssues enabledForFailure: true, tool: sonarQube()
-        }
-    }
+ // post {
+ //    always {
+ //        recordIssues enabledForFailure: true, tool: sonarQube()
+ //        }
+ //    }
 }
