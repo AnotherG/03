@@ -2,7 +2,6 @@ pipeline {
     agent any
         stages {
 
-
             stage('Code Quality Check via SonarQube') {
                 steps {
                     script {
@@ -20,7 +19,3 @@ pipeline {
         }
     }
 }
-
-
-
-
