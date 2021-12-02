@@ -11,7 +11,7 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Search Result</title>
 <link rel="stylesheet" href="style.css">

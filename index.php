@@ -27,16 +27,12 @@
 		}
 	}
 
-	// else
-	// 		{
-	// 			$errorMsg =  "No User Found";
-	// 		}
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+<title>Search </title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -53,13 +49,7 @@
 				unset($errorMsg);
 			}
 			
-			// if(isset($_GET['logout']))
-			// {
-			// 	echo "<div class='success-msg'>";
-			// 	echo "You have successfully logout";
-			// 	echo "</div>";
-				
-			// }
+
 			
 			
 			
